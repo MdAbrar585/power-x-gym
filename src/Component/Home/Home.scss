@@ -1,0 +1,20 @@
+.cover{
+    background:linear-gradient(rgba(24, 22, 22, 0.808),transparent), url('../../images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+.text{
+    margin: 120px;
+}
+.text h1{
+    color: white;
+}
+.text p{
+    color: white;
+}
+.custom-btn{
+    background-color: #FCD842;
+    padding: 8px 40px;
+    border: 1px solid black;
+}
