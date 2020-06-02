@@ -14,6 +14,7 @@ import {
   Link
 } from "react-router-dom";
 import Classes from './Component/Classes/Classes';
+import ClassesOption from './Component/ClassesOption/ClassesOption';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/classes">
             <Navbar></Navbar>
             <Classes></Classes>
+            <ClassesOption></ClassesOption>
             <Footer></Footer>
           </Route>
 
