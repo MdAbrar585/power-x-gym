@@ -1,0 +1,23 @@
+.card-deck{
+    margin-bottom: 30px;
+}
+.choose-header{
+    padding: 40px 60px;
+}
+.choose-header span{
+    color: yellow;
+}
+.card-img-top{
+    width: 40% !important;
+    padding: 20px;
+}
+.card-text{
+    color: #000000;
+}
+.card{
+    text-align: center;
+    box-shadow: 5px 5px  10px lightgray;
+}
+.card:hover{
+    border: 1px solid yellow;
+}
