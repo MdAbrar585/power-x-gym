@@ -7,7 +7,9 @@ const Navbar = () => {
             <nav class="slide out show navbar navbar-expand-sm navbar-light py-4 fixed-top ">
                 <div class="container">
                     <a class="navbar-brand" href="/">Power <span>X</span></a>
-                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
