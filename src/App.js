@@ -15,6 +15,13 @@ import {
 } from "react-router-dom";
 import Classes from './Component/Classes/Classes';
 import ClassesOption from './Component/ClassesOption/ClassesOption';
+import AdvanceHeader from './Component/AdvanceHeader/AdvanceHeader';
+import AdvanceBody from './Component/AdvanceBody/AdvanceBody';
+import PricingHeader from './Component/PricingHeader/PricingHeader';
+import PricingBody from './Component/PricingBody/PricingBody';
+import MemberShipHeader from './Component/MemberShipHeader/MemberShipHeader';
+import MemberShipBody from './Component/MemberShipBody/MemberShipBody';
+import Payment from './Component/Payment/Payment';
 
 function App() {
   return (
@@ -36,7 +43,32 @@ function App() {
             <ClassesOption></ClassesOption>
             <Footer></Footer>
           </Route>
+          <Route path="/advance">
+            <Navbar></Navbar>
+            <AdvanceHeader></AdvanceHeader>
+            <AdvanceBody></AdvanceBody>
+            <Footer></Footer>
+          </Route>
 
+          <Route path="/pricing">
+            <Navbar></Navbar>
+            <PricingHeader></PricingHeader>
+            <PricingBody></PricingBody>
+            <Footer></Footer>
+          </Route>
+          <Route path="/memberShip">
+            <Navbar></Navbar>
+            <MemberShipHeader></MemberShipHeader>
+            <MemberShipBody></MemberShipBody>
+            <Footer></Footer>
+          </Route>
+
+          <Route path="/payment">
+            <Navbar></Navbar>
+            <MemberShipHeader></MemberShipHeader>
+            <Payment></Payment>
+            <Footer></Footer>
+          </Route>
 
           <Route path="/">
             <Navbar></Navbar>

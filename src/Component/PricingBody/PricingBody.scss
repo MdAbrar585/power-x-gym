@@ -1,0 +1,52 @@
+.pricing-header span{
+    color: yellow;
+}
+.pricing-header p{
+    color: #000000;
+}
+.pricing-background-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.959),transparent),url('../../images/hipcravo-5UbIqV58CW8-unsplash.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1px;
+    text-align: center;
+    padding: 60px;
+}
+.pricing-background-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.959),transparent),url('../../images/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1px;
+    text-align: center;
+    padding: 60px;
+}
+.pricing-background-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.959),transparent),url('../../images/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1px;
+    text-align: center;
+    padding: 60px;
+}
+.money{
+    color: yellow;
+    font-size: 70px;
+    font-weight: 700;
+}
+.pricing-text h3{
+    color: #ffffff;
+    font-weight: 700;
+}
+.bill{
+    color: yellow;
+}
+.pricing-btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    background: yellow;
+    font-weight: bolder;
+}
