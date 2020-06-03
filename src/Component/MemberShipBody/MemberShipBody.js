@@ -1,11 +1,13 @@
 import React from 'react';
 import './MemberShipBody.scss'
+import { Link } from 'react-router-dom';
 const MemberShipBody = () => {
     return (
         <html>
             <body>
 
                 <div className="container">
+                    <div className="step-custom">
                     <div className="stepwizard">
                         <div className="stepwizard-row setup-panel">
                             <div className="stepwizard-step col-xs-3">
@@ -23,6 +25,8 @@ const MemberShipBody = () => {
 
                         </div>
                     </div>
+                    </div>
+                    
 
                     <div classNameName="container">
                         <form>
@@ -96,8 +100,10 @@ const MemberShipBody = () => {
                                     <input type="postcode" className="form-control" id="inputPostcode" placeholder="Postcode" />
                                 </div>
                             </div>
-                            <div className="d-flex justify-content-end">
+                            <div className="d-flex justify-content-end payment-custom-btn">
+                                <Link to="/payment">
                                 <button type="submit" className="btn btn-primary">NEXT</button>
+                                </Link>
                             </div>
                         </form>
                     </div>

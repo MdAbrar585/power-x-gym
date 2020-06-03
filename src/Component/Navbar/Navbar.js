@@ -11,11 +11,11 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/dashboard">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/pricing">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="/classes">Our Classes</a></li>
                             <li class="nav-item"><a class="nav-link" href="/">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="/">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="/">Contact Us</a></li>
 
                         </ul>

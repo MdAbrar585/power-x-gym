@@ -10,19 +10,21 @@ import paymentImage4 from "../../images/Bitmap.png";
 const Payment = () => {
     return (
         <div className="container">
-            <div className="stepwizard">
-                <div className="stepwizard-row setup-panel">
-                    <div className="stepwizard-step col-xs-3">
-                        <a href="#step-1" type="button" className="btn btn-success btn-circle">1</a>
-                        <p><small>Personal Details</small></p>
-                    </div>
-                    <div className="stepwizard-step col-xs-3">
-                        <a href="#step-2" type="button" className="btn btn-success btn-circle" >2</a>
-                        <p><small>Bank Payment</small></p>
-                    </div>
-                    <div className="stepwizard-step col-xs-3">
-                        <a href="#step-3" type="button" className="btn btn-default btn-circle" disabled="disabled">3</a>
-                        <p><small>Membership Created</small></p>
+            <div className="step-custom">
+                <div className="stepwizard">
+                    <div className="stepwizard-row setup-panel">
+                        <div className="stepwizard-step col-xs-3">
+                            <a href="#step-1" type="button" className="btn btn-success btn-circle">1</a>
+                            <p><small>Personal Details</small></p>
+                        </div>
+                        <div className="stepwizard-step col-xs-3">
+                            <a href="#step-2" type="button" className="btn btn-success btn-circle" >2</a>
+                            <p><small>Bank Payment</small></p>
+                        </div>
+                        <div className="stepwizard-step col-xs-3">
+                            <a href="#step-3" type="button" className="btn btn-default btn-circle" disabled="disabled">3</a>
+                            <p><small>Membership Created</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,7 +80,7 @@ const Payment = () => {
 
             </div>
 
-            <div className="d-flex justify-content-end">
+            <div className="d-flex justify-content-end payment-custom-btn">
                 <button type="submit" className="btn btn-primary">NEXT</button>
             </div>
         </div>

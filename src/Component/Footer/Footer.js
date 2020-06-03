@@ -4,7 +4,7 @@ import facebook from "../../images/facebook.png";
 import twitter from "../../images/twitter.png";
 import linkedin from "../../images/linkedin.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFacebookF , faTwitter ,faYoutube} from '@fortawesome/free-brands-svg-icons';
+import {  faFacebookF , faTwitter ,faYoutube, faInstagram,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -20,23 +20,21 @@ const Footer = () => {
                        
                     </div>
                     <div className="col">
-                        <h1>Products</h1>
+                        <h1>Need Help?</h1>
                         <ul>
-                            <li>About</li>
-                            <li>Mission</li>
-                            <li>Services</li>
-                            <li>Social</li>
-                            <li>Get in touch</li>
+                            <li>Help Center</li>
+                            <li>Email Support</li>
+                            <li>Live Chat</li>
+                            <li>Gift Certificates</li>
+                            <li>Send Us Feedback</li>
                         </ul>
                     </div>
                     <div className="col">
-                        <h1>Accounts</h1>
+                        <h1>Digital Resources</h1>
                         <ul>
-                            <li>About</li>
-                            <li>Mission</li>
-                            <li>Services</li>
-                            <li>Social</li>
-                            <li>Get in touch</li>
+                            <li>Articles</li>
+                            <li>E-books</li>
+                           
                         </ul>
                     </div>
                     <div className="col">
@@ -62,8 +60,14 @@ const Footer = () => {
                             <li><a href="/" classNameName="icon">
                             <FontAwesomeIcon icon={faTwitter} />
                             </a></li>
-                            <li></li>
+                            <li><a href="/" classNameName="icon">
+                            <FontAwesomeIcon icon={faInstagram} />
+                            </a></li>
+                            <li><a href="/" classNameName="icon">
+                            <FontAwesomeIcon icon={faWhatsapp} />
+                            </a></li>
                         </ul>
+                        <p>Forum</p>
                     </div>
                     <div className="col">
                         <h1>Support</h1>

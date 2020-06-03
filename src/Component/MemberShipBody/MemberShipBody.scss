@@ -6,6 +6,9 @@
 body {
     margin-top:30px;
 }
+.step-custom{
+    margin-top: 50px;
+}
 .stepwizard-step p {
     margin-top: 0px;
     color:#666;
@@ -59,4 +62,13 @@ body {
     color: #fff;
     background-color: yellow !important;
     border-color: yellow !important;
+    margin-bottom: 20px !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #F7D945 !important;
+    border-color: #007bff;
+    padding: 10px 40px !important;
+    color: #000000 !important;
+    font-weight: 700 !important;
 }

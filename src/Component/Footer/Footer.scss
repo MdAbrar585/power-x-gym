@@ -70,6 +70,12 @@ html,body {
     padding-right: 5px !important;
   }
   
+  .social ul li a {
+    color: #ffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+}
   .footer .col ul li:hover {
     color: #ffffff;
     transition: .1s;
