@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.scss';
+import ReactGa from 'react-ga';
 import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import Progres from './Component/Progress/Progres';
@@ -24,6 +25,10 @@ import MemberShipBody from './Component/MemberShipBody/MemberShipBody';
 import Payment from './Component/Payment/Payment';
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize('UA-168214942-1');
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }, [])
   return (
     <div className="App">
       <Router>
