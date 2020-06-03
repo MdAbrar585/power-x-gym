@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import Progres from './Component/Progress/Progres';
